@@ -26,7 +26,7 @@
       fileignorecase = true;
       smartcase = true;
       ignorecase = true;
-      scrolloff = 8;
+      scrolloff = 0;
       signcolumn = "yes";
       foldlevelstart = 99;
       cmdwinheight = 5;
@@ -52,7 +52,6 @@
     };
 
     extraPlugins = with pkgs.vimPlugins; [
-      wilder-nvim
     ]
     ++ [
       (pkgs.vimUtils.buildVimPlugin {
