@@ -18,7 +18,7 @@
       tabstop = 2;
       expandtab = true;
       shiftround = true;
-      wrap = false;
+      wrap = true;
       swapfile = false;
       backup = false;
       hlsearch = false;
